@@ -1,0 +1,128 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+.header img {
+    height: 40px;
+}
+.header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+.header nav a.active {
+    color: #fff;
+    background-color: #000;
+    padding: 5px 10px;
+}
+.header .icons a {
+    margin: 0 10px;
+    color: #000;
+    font-size: 18px;
+}
+.content {
+    text-align: center;
+    padding: 50px 20px;
+}
+.content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.filters {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.filters div {
+    margin: 0 20px;
+}
+.filters label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.filters input[type="checkbox"] {
+    margin-right: 10px;
+}
+.filters .price-range {
+    display: flex;
+    align-items: center;
+}
+.filters .price-range input {
+    width: 100px;
+    margin: 0 10px;
+}
+.filters .price-range span {
+    margin: 0 10px;
+}
+.filters select {
+    padding: 5px;
+    font-size: 16px;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product {
+    width: 300px;
+    margin: 25px;
+    text-align: center;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+.product p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+/* Style untuk dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu li a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Menampilkan dropdown saat hover di dropdown atau dropdown-menu */
+.dropdown:hover .dropdown-menu,
+.dropdown-menu:hover {
+  display: block;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
