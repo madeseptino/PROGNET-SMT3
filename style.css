@@ -61,27 +61,38 @@
     margin-bottom: 10px;
 }
 
-.photo-upload-square {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border: 2px dashed #ced4da;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+#heroCarousel .carousel-item {
+    height: 70vh;
 }
 
-.photo-upload-square input[type="file"] {
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-}
-
-.photo-upload-square img {
-    width: 100%;
-    height: 100%;
+#heroCarousel .carousel-item img {
     object-fit: cover;
+    height: 100%;
+}
+
+.carousel-caption h5 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+#heroCarouselB .carousel-itemB {
+    height: 50vh;
+}
+
+#heroCarouselB .carousel-itemB img {
+    object-fit: cover;
+    height: 100%;
+}
+
+.carousel-captionB h5 {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.carousel-captionB p {
+    font-size: 1.2rem;
 }

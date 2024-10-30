@@ -15,7 +15,6 @@
 
 <body>
     <!-- Header with Navbar -->
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">RustaJersey</a>
@@ -44,8 +43,8 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Address</a></li>
-                            <li><a class="dropdown-item" href="#">Our Story</a></li>
-                            <li><a class="dropdown-item" href="#">Our Contact</a></li>
+                            <li><a class="dropdown-item" href="Our_Story.html">Our Story</a></li>
+                            <li><a class="dropdown-item" href="Contact_Store.html">Our Contact</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -70,22 +69,118 @@
             </div>
         </div>
     </nav>
-    <img class="img-fluid w-100" src="img/bgNavbar.jpg" alt="Banner Image">
+    
+    <!-- Hero Section -->
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/bgNavbar.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Title Here</h5>
+                    <p>Subtitle or description here.</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                </div>
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+    </div>
 
     <!-- Main Content -->
-    <main class="container mt-4">
-        <h1 class="text-center mb-4">Our Products</h1>
-
+    <h1 class="text-center mb-4">Our Products</h1>
+    <div id="heroCarouselB" class="carousel slideB" data-bs-ride="carouselB">
+        <div class="carousel-innerB">
+            <div class="carousel-itemB active">
+                <img src="img/basketballJersey.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-captionB d-none d-md-block">
+                    <h2 class="text-center">BASKETBALL JERSEY</h2>
+                    <!-- <h5>Basket Jersey</h5> -->
+                    <!-- <p>Subtitle or description here.</p> -->
+                    <!-- <button class="btn btn-primary">Shop Now</button> -->
+                </div>
+            </div>
+            <!-- Add more carousel items as needed -->
+        </div>
+    </div>
+    <main class="container-fluid mt-4">
         <a href="#" class="btn btn-primary floating-help-btn">
             Help
         </a>
-        <div class="container">
-            <h2 class="text-center my-5">BASKETBALL JERSEY</h2>
+        <div class="row">
             <div class="product-container">
                 <!-- Product Cards -->
-                <div class="col-md-3 col-sm-6 mb-4">
+                <div class="col-md-3 mb-4">
                     <div class="product">
-                        <img src="/img/basketballJersey.jpg" alt="Purple Jersey Design">
+                        <img src="img/basketballJersey.jpg" alt="Purple Jersey Design">
+                        <div class="sold-out">Sold Out</div>
+                        <h5>Purple Jersey Design</h5>
+                        <p class="productDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore.</p>
+                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat Product Cards as Needed -->
+            </div>
+            <div class="product-container">
+                <!-- Product Cards -->
+                <div class="col-md-3 mb-4">
+                    <div class="product">
+                        <img src="img/basketballJersey.jpg" alt="Purple Jersey Design">
+                        <div class="sold-out">Sold Out</div>
+                        <h5>Purple Jersey Design</h5>
+                        <p class="productDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore.</p>
+                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat Product Cards as Needed -->
+            </div>
+            <div class="product-container">
+                <!-- Product Cards -->
+                <div class="">
+                    <div class="product">
+                        <img src="img/basketballJersey.jpg" alt="Purple Jersey Design">
+                        <div class="sold-out">Sold Out</div>
+                        <h5>Purple Jersey Design</h5>
+                        <p class="productDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore.</p>
+                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat Product Cards as Needed -->
+            </div>
+            <div class="product-container">
+                <!-- Product Cards -->
+                <div class="">
+                    <div class="product">
+                        <img src="img/basketballJersey.jpg" alt="Purple Jersey Design">
+                        <div class="sold-out">Sold Out</div>
+                        <h5>Purple Jersey Design</h5>
+                        <p class="productDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore.</p>
+                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat Product Cards as Needed -->
+            </div>
+            <div class="product-container">
+                <!-- Product Cards -->
+                <div class="">
+                    <div class="product">
+                        <img src="img/basketballJersey.jpg" alt="Purple Jersey Design">
+                        <div class="sold-out">Sold Out</div>
+                        <h5>Purple Jersey Design</h5>
+                        <p class="productDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore.</p>
+                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                    </div>
+                </div>
+                <!-- Repeat Product Cards as Needed -->
+            </div>
+            <div class="product-container">
+                <!-- Product Cards -->
+                <div class="">
+                    <div class="product">
+                        <img src="img/basketballJersey.jpg" alt="Purple Jersey Design">
                         <div class="sold-out">Sold Out</div>
                         <h5>Purple Jersey Design</h5>
                         <p class="productDesk">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -101,7 +196,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
-    <script>
+    <!-- <script>
         // JavaScript untuk memperbarui harga saat slider digeser
         const cartCount = document.getElementById('cartCount');
         const addToCartButtons = document.querySelectorAll('.add-to-cart');
@@ -118,7 +213,7 @@
                 }, 300);
             });
         });
-    </script>
+    </script> -->
 
     <!-- Footer -->
     <footer class="bg-light text-center p-3">
