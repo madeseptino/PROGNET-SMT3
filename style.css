@@ -60,3 +60,28 @@
     color: #666;
     margin-bottom: 10px;
 }
+
+.photo-upload-square {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #ced4da;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.photo-upload-square input[type="file"] {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.photo-upload-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
