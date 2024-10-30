@@ -96,3 +96,29 @@
 .carousel-captionB p {
     font-size: 1.2rem;
 }
+
+.carousel-itemB {
+    position: relative;
+    text-align: center;
+}
+
+.carousel-itemB img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-captionB {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 15px 30px;
+    border-radius: 8px;
+}
+
+.carousel-captionB h2 {
+    margin: 0;
+    font-size: 2rem;
+}
